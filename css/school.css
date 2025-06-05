@@ -1,0 +1,28 @@
+.hero::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(180deg, #07161aaf 0%, #00000000 100%), url('../img/massive-wave.jpeg');
+    background-size: cover;
+    clip-path: polygon(0 0, 100% 0, 100% 80%, 50% 95%, 0 80%);
+    z-index: -1;
+}
+
+.knowledge__school {
+    background-color: #00a6a650;
+}
+
+.knowledge__subtitle, .knowledge__paragraph {
+color: #0a757b;
+}
+
+.knowledge__cta {
+    background-color: #00a6a6;
+}
+
+.knowledge__cta:hover {
+    background-color: #0a757b;
+}
